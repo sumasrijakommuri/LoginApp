@@ -11,9 +11,7 @@ import javax.persistence.*;
 import javax.sql.*;
 import java.util.*;
 
-/**
- * Created by Srija on 9/26/2017.
- */
+
 @Configuration
 @EnableTransactionManagement
 public class JPAConfiguration {

@@ -23,7 +23,7 @@ public class UserLogin {
     }
 
     public void setUserid(String userid) {
-        this.userid = userid;
+        //this.userid = userid;
     }
 
     public String getEmail() {

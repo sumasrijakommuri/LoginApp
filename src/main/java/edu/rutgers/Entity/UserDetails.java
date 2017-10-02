@@ -7,7 +7,6 @@ import java.util.*;
 public class UserDetails {
 
     @Id
-    @Column(columnDefinition = "VARCHAR(36)")
     private String detailsid;
 
     //personal details
@@ -31,7 +30,7 @@ public class UserDetails {
     }
     //getters and setters
 
-    public String getDetailsid() {
+   public String getDetailsid() {
         return detailsid;
     }
 
